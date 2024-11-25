@@ -64,7 +64,7 @@ La aplicación interactúa con el servidor de Ollama en `localhost:11434`, gesti
 
 También hemos desplegado una versión de MatIA en Vercel: [https://flutter-app-mat-ia.vercel.app/](https://flutter-app-mat-ia.vercel.app/). Esta versión depende de un servidor temporal conectado a una instancia de Google Cloud con GPU Tesla T4 mediante Ngrok. 
 
-> Nota: Por limitaciones de conexión, es posible que algunas secciones de Aprendizaje Personalizado o la pestaña de Práctica presenten errores de carga. Se recomienda utilizar la versión local para una experiencia óptima.
+> Nota: Por limitaciones de conexión, el servidor Ollama no está conectado a la página web. 
 
 ## Video de Presentación
 
