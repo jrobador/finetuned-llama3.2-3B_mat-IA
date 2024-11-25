@@ -1,0 +1,6 @@
+unsloth
+streamlit
+deep_translator
+pillow
+pandas
+numpy

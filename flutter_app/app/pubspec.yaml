@@ -1,0 +1,44 @@
+name: app
+description: A Flutter application prototype for local data storage.
+version: 1.0.0
+publish_to: 'none' # Set to 'none' for a private project
+
+environment:
+  sdk: '>=3.5.4 <4.0.0'
+  flutter: '>=3.0.0'
+
+dependencies:
+  # Core Flutter SDK
+  flutter:
+    sdk: flutter
+  
+  langchain: {version}
+
+  langchain_ollama: {version}
+
+  # Icons and styling
+  cupertino_icons: ^1.0.2
+
+  google_fonts: ^6.2.1
+
+  # State management
+  provider: ^6.1.1
+
+  # Local data storage
+  shared_preferences: ^2.0.18 # Use the latest stable version
+
+  flutter_tts: ^4.2.0
+
+dev_dependencies:
+  # Testing dependencies
+  flutter_test:
+    sdk: flutter
+  
+  # Linting and code style
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/matIA_logo.png
+    
